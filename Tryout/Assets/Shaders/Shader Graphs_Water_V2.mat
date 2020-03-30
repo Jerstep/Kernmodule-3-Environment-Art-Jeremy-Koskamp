@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7802107488439769177
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Water_V2
+  m_Shader: {fileID: -6465566751694194690, guid: 30428741d4871c9418a6863eb7037cc4,
+    type: 3}
+  m_ShaderKeywords: _BLENDMODE_ALPHA _DOUBLESIDED_ON _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    MotionVector: User
+    RenderType: Transparent
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - TransparentBackface
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_63E7D856:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_22A6890F: 10
+    - Vector1_22CB593A: 1
+    - Vector1_2B65E1F5: 0
+    - Vector1_2D0612AE: 1
+    - Vector1_316356C3: 0.7
+    - Vector1_35F4566: -5.3
+    - Vector1_409985DD: 2
+    - Vector1_4E4F2E60: 1
+    - Vector1_51249653: 0.2
+    - Vector1_567E3536: 0
+    - Vector1_58CCDFAE: 0.83
+    - Vector1_62F629F4: 0
+    - Vector1_7802698: 2
+    - Vector1_8227B3D: 0.08
+    - Vector1_8238DB98: 1
+    - Vector1_8D522078: 1
+    - Vector1_8E7C042F: -14.51
+    - Vector1_96C0E325: 10
+    - Vector1_97D7F27F: 3.11
+    - Vector1_9A81DE10: 0.1
+    - Vector1_AFAC1848: 10
+    - Vector1_CA09C873: 0.2
+    - Vector1_CA79AC54: 0.45
+    - Vector1_D14F85EA: 0.2
+    - Vector1_D38565FB: 1
+    - Vector1_D7ADB860: 307.41
+    - Vector1_DC0A91B7: 1
+    - Vector1_DF989127: 76.93
+    - Vector1_EB74F080: 0.12
+    - Vector1_EB7D165B: 1
+    - Vector1_ED734B55: 0.1
+    - Vector1_F1B189B6: 0.63
+    - Vector1_F248BD8A: 4.24
+    - Vector1_F883B8EA: 0.3
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 10
+    - _AlphaSrcBlend: 1
+    - _BlendMode: 0
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 10
+    - _ReceivesSSR: 1
+    - _RenderQueueType: 5
+    - _RequireSplitLighting: 0
+    - _SrcBlend: 1
+    - _StencilRef: 2
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 64
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 128
+    - _StencilWriteMask: 3
+    - _StencilWriteMaskDepth: 48
+    - _StencilWriteMaskDistortionVec: 64
+    - _StencilWriteMaskGBuffer: 51
+    - _StencilWriteMaskMV: 176
+    - _SurfaceType: 1
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentSortPriority: 0
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    m_Colors:
+    - Color_B522A046: {r: 0.01415092, g: 0.6953458, b: 1, a: 0}
+    - Color_C52570F2: {r: 0, g: 0.9665093, b: 1, a: 0}
+    - Color_CDC8154E: {r: 0.8537736, g: 0.9942657, b: 1, a: 0}
+    - Color_E7C13B5C: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_31AC937B: {r: 1, g: 1, b: 1, a: 1}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

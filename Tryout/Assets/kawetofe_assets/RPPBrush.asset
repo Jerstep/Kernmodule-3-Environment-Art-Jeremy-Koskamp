@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab40fa445ff22fc479be407303fecb08, type: 3}
+  m_Name: RPPBrush
+  m_EditorClassIdentifier: 
+  Notes: "This script needs Random Prefab Placer Asset to work \n https://assetstore.unity.com/packages/tools/terrain/random-prefab-placer-104765 "
+  prefabs:
+  - allowedLayers:
+      serializedVersion: 2
+      m_Bits: 311
+    prefab: {fileID: 8947431798467676742, guid: 9f37d136bcca0e845adbdc1d6482cd3e,
+      type: 3}
+    possibility: 0.855
+    scaleMin: 0.8
+    scaleMax: 1.2
+    placementOffset: {x: 0, y: 0, z: 0}
+    lockedRotations: {x: 1, y: 0, z: 1}
+    useNormalsForRotation: 1
+    maxSlopeAngle: 45
+  - allowedLayers:
+      serializedVersion: 2
+      m_Bits: 311
+    prefab: {fileID: 8860657917764504392, guid: 805598c0fe218a9439017e9bf9f548b4,
+      type: 3}
+    possibility: 0.396
+    scaleMin: 0.8
+    scaleMax: 1.2
+    placementOffset: {x: 0, y: 0, z: 0}
+    lockedRotations: {x: 0, y: 0, z: 0}
+    useNormalsForRotation: 0
+    maxSlopeAngle: 45
+  - allowedLayers:
+      serializedVersion: 2
+      m_Bits: 311
+    prefab: {fileID: 6274803750867812180, guid: 48b38904de560334ca027cebde9214c6,
+      type: 3}
+    possibility: 0.037
+    scaleMin: 0.8
+    scaleMax: 1.2
+    placementOffset: {x: 0, y: 0, z: 0}
+    lockedRotations: {x: 1, y: 0, z: 1}
+    useNormalsForRotation: 0
+    maxSlopeAngle: 45
+  - allowedLayers:
+      serializedVersion: 2
+      m_Bits: 311
+    prefab: {fileID: 8297240993319736180, guid: 6d77e870913a3b64f8c50e40f853a77c,
+      type: 3}
+    possibility: 1
+    scaleMin: 0.8
+    scaleMax: 1.2
+    placementOffset: {x: 0, y: 0, z: 0}
+    lockedRotations: {x: 1, y: 0, z: 1}
+    useNormalsForRotation: 0
+    maxSlopeAngle: 45
+  - allowedLayers:
+      serializedVersion: 2
+      m_Bits: 311
+    prefab: {fileID: 6162843824780165979, guid: 0b653989b9edd2646ade0808304fbaad,
+      type: 3}
+    possibility: 0.064
+    scaleMin: 0.8
+    scaleMax: 1.2
+    placementOffset: {x: 0, y: 0, z: 0}
+    lockedRotations: {x: 1, y: 0, z: 1}
+    useNormalsForRotation: 0
+    maxSlopeAngle: 45
+  objectsToPlace: 10
